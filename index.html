@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formss.css">
+    <title>Форми kusyanskiy/Melnychenko</title>
+</head>
+<body>
+    <p>cheeps form :0</p>
+    <h1>Форма на замовлення пачки чипсів:</h1>
+    <form action="confirm.html" method="post">
+        <label for="name">Прізвище Ім`я</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="surname">Прізвище</label><br>
+        <input type="text" id="surname" name="surname" required><br>
+        <label for="phone">Номер телефону:</label><br>
+        <input type="phone" id="phone" name="phone" required><br>
+        <label for="brand">Оберіть марку</label><br>
+        <select id="brand" name="brand" required>
+            <option value="Lay`s">Lay`s</option>
+            <option value="Cheetos">Cheetos</option>
+            <option value="Pringles">Pringles</option>
+            <option value="Naturals">Naturals</option>
+            <option value="Chipster`s">Chipster`s</option>
+            <option value="Estrella">Estrella</option>
+        </select><br>
+        <input type="submit" value="Відправити дані для замовлення">
+        <input type="reset" value="Відмінити замовлення">
+        </form>
+</body>
+</html>
